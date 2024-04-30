@@ -1,0 +1,272 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    background-color: #102C57;
+}
+section{
+    min-height: 95vh;
+}
+.hero{
+    background-color: #102C57;
+    color: #DAC0A3;
+    display: flex;
+}
+.korobka{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 95vh;
+}
+.korobka2{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    width: 50%;
+    height: 95vh;
+
+}
+.korobka3{ 
+    display: flex; 
+    justify-content: center; 
+    width: 50%;
+    height: 71vh;
+    margin: 100px 0 0 0; 
+} 
+
+.textcenter1{
+    text-align: center;
+    color: #102C57;
+    margin-right: 15px;
+}
+
+.aboutme{ 
+    min-height: 95vh;
+    background-color: #DAC0A3; 
+    display: flex; 
+} 
+ 
+
+
+h1{
+    margin: 15px;
+    font-size: 100px;
+}
+h2{
+    margin: 0;
+    font-size: 50px;
+}
+h3{
+    margin: 0;
+    font-size: 30px;
+}
+.textcenter{
+    text-align: center;
+    
+}
+
+img{
+    width: 80%;
+    border-radius: 35px;
+}
+.w50{
+    width: 30%;
+}
+input{
+    display: block;
+    margin: 30px 0;
+    width: 100%;
+    height: 30px;
+    font-size: 30px;
+    padding: 15px 30px;
+    border-radius: 30px;
+    border: 0;
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
+#contactme{
+    padding: 50px;
+    color:#102C57;
+    background-color: #DAC0A3;
+    position: relative;
+    z-index: 3;
+}
+.m50{
+    margin: 50px;
+}
+
+
+/* Все про меню */
+.logo{
+    font-size: 30px;
+    text-decoration: none;
+    margin: 0 30px;
+    font-weight: 600;    
+}
+.link{
+    font-size: 30px;
+    text-decoration: none;
+    margin: 0 30px;
+    color: #DAC0A3;
+}
+nav{
+    
+    margin: 20px 50px;
+    border-radius: 50px;
+    width: calc(100% - 100px);
+    color: #DAC0A3;
+    background-color: #102C57;
+    display: flex;
+    align-items: center;
+    height: 60px;
+    /position: fixed;/
+}
+.right{ 
+    position: absolute; 
+    right: 80px; 
+} 
+.btn{ 
+    padding: 10px 30px; 
+    background-color: #173c72; 
+    border-radius: 30px; 
+    color: #DAC0A3; 
+} 
+.btn1{ 
+    padding: 10px 30px; 
+    background-color: #102C57; 
+    border-radius: 30px; 
+    color: #778da9; 
+    margin: 50px 30px;
+    margin-top: 50px; 
+} 
+
+
+
+/pro about me/
+.aboutme {
+    height: 100vh;
+    background-color: #102C57;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 2px solid #DAC0A3 ;
+}
+.aboutme{ 
+    min-height: 95vh;
+    background-color: #DAC0A3; 
+    display: flex; 
+} 
+
+.text {
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top:220px
+}
+.text h1{
+    margin-left:100px;
+}
+
+
+/skills/
+.myskills{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 20px;
+    justify-items: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+.skills {
+    grid-column: 1 / span 2;
+    margin-top: 50px;
+    color: #DAC0A3;
+}
+.half {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, auto);
+    gap: 20px;
+    justify-items: center;
+    align-items: center;
+}
+.row0 {
+    display: flex;
+    align-items: center;
+    color: #778da9;
+}
+.row0 h2 {
+    margin-right: 10px;
+    width: 150px; 
+}
+.row1 {
+    display: flex;
+}
+.circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #778da9;
+    margin-right: 8px;
+}
+.circle.filled {
+    background-color: #DAC0A3;
+}
+
+/Все про блог/
+#myblog{
+    padding: 150px 0;
+}
+.card{
+    margin-top: 150px;
+    width: 500px;
+    background-color: #DAC0A3;
+    padding: 50px ;
+    border-radius: 30px;
+}
+.w100{
+    width: 100%;
+}
+.cardbtn{
+    text-decoration: none;
+    width: 500px;
+    display: block;
+    margin: 0 150px;
+}
+.dflex{
+    display: flex;
+}
+.w80{
+    width: 80%;
+}
+.chiutnizhe{
+    margin-top: 450px;
+}
+
+
+
+.media{ 
+    width: 100px; 
+} 
+.small{ 
+    height: 40vh; 
+} 
+.center3{ 
+    text-align: center; 
+}
+.textcenter3{
+    text-align: center;
+    color: #DAC0A3;
+    margin-top: 100px;
+    margin-bottom: 50px ;
+}
+
+@media only screen and (max-width: 600px) {
+
+}
